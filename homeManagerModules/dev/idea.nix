@@ -28,7 +28,7 @@ in
             };
             version = mkOption {
               type = types.str;
-              default = "2025.3.1.1";
+              default = "2025.3.2";
               description = "IntelliJ IDEA version";
             };
             url = mkOption {
@@ -38,7 +38,7 @@ in
             };
             hash = mkOption {
               type = types.str;
-              default = "OgZLIpYfPzm4ZrZLYoVY4ND3CNQjo/lWXUPw6BGWmXs=";
+              default = "sha256-o0QsnxlTxm3LCCXpt4jH5077WG7b8dMO+LDfVT/hNuQ=";
               description = "IntelliJ IDEA hash";
             };
           };
